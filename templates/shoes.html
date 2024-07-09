@@ -1,0 +1,41 @@
+{% extends  'base.html' %}
+
+{% block title %} Обувь {% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="static/big.css">
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="https://cdn.rickowens.eu/products/171272/large/RP01D2888_LBKLCO_911_01.jpg?1713871395" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">RICK OWENS SS24 LIDO LOW SNEAKS IN BLACK AND MILK</p>
+        <a href="https://www.rickowens.eu/en/US/women/products/rp01d2888lbklco-911" class="btn btn-primary">{{ more }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="https://cdn.rickowens.eu/products/160256/large/RP01D2884_LGE_99_01.jpg?1698671534" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">RICK OWENS SS24 LIDO VINTAGE SNEAKS IN</p>
+        <a href="https://www.rickowens.eu/en/US/women/products/rp01d2884lge-99" class="btn btn-primary">{{ more }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width : 18rem;">
+      <img src="https://cdn.rickowens.eu/products/163635/large/RP01D2891_LOO_911_01.jpg?1701791002" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">RICK OWENS SS24 LIDO LACEUP BOZO TRACTOR IN BLACK</p>
+        <a href="https://www.rickowens.eu/en/US/women/products/rp01d2891loo-911" class="btn btn-primary">{{ more }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

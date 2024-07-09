@@ -1,0 +1,41 @@
+{% extends  'base.html' %}
+
+{% block title %}  Куртки {% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="static/big.css">
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="https://cdn.rickowens.eu/products/158410/large/MU02C1C03_M3632_999_01.jpg?1698047197" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">MONCLER + RICK OWENS FW23 CYCLOPIC JKT IN NYLON</p>
+        <a href="https://www.rickowens.eu/en/US/men/products/mu02c1c03m3632-999" class="btn btn-primary">{{ more }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="https://cdn.rickowens.eu/products/158157/large/MU02C1A04_M3855_22D_01%282%29.jpg?1697811974" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">MONCLER + RICK OWENS FW23 GIMP COAT IN BLACK</p>
+        <a href="https://www.rickowens.eu/en/US/men/products/mu02c1a04m3855-22d" class="btn btn-primary">{{ more }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width : 18rem;">
+      <img src="https://cdn.rickowens.eu/products/158136/large/MU02C1C04_M3632_999_11.jpg?1697811509" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">MONCLER + RICK OWENS FW23 CYCLOPIC COAT IN BLACK</p>
+        <a href="https://www.rickowens.eu/en/US/men/products/mu02c1c04m3632-999" class="btn btn-primary">{{ more }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
